@@ -131,3 +131,6 @@ END;
     -- Limpiar la tabla temporal
     DROP TABLE #RoleHierarchy;
 END;
+
+------------------------- Ejecutar Procedimiento Almacenado "Sistema de permisos" -------------------
+---EXEC Sistema_de_permisos @entitycatalog_id = 1 , @user_id = 3;
